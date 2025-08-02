@@ -58,6 +58,7 @@ section {
   padding-left: 2em;
   line-height: 2em;
   font-size: 3vw;
+  text-shadow: 2px 1px black;
 }
 
 .normal {
@@ -68,7 +69,7 @@ section {
 .img {
   background: rgb(67, 66, 66) fixed;
   color: white;
-  box-shadow: inset .5em .5em 1em 0px rgba(0, 0, 0, 0.233);
+  box-shadow: inset .5em .5em 1em 0px rgba(0, 0, 0, 0.306);
   background-size: cover;
 }
 
@@ -84,13 +85,14 @@ section {
 .img p {
   display: inline-block;
   background-color: rgba(0, 0, 0, 0.486);
-  text-shadow: 1px 1px black;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 footer {
   background-color: black;
   text-align: center;
   color: white;
-  padding: 0.5em;
+  padding: 1.5em;
+  font-size: 1.5em;
 }
-
