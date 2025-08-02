@@ -74,12 +74,12 @@ section {
 }
 
 #img1{
-  background: url('desafio2/imgs/bg1.jpg') right center no-repeat fixed;
+  background: url('./imgs/bg1.jpg') right center no-repeat fixed;
   background-size: cover;
 }
 
 #img2{
-  background-image: url('desafio2/imgs/bg2.jpg');
+  background-image: url('./imgs/bg2.jpg');
 }
 
 .img p {
