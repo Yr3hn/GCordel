@@ -48,7 +48,7 @@ header h1 {
 }
 
 header p {
-  font-size: 20px;
+  font-size: 2vw;
   padding-bottom: 50px;
 }
 
@@ -66,13 +66,25 @@ section {
 }
 
 .img {
-  background-color: rgb(67, 66, 66);
+  background: rgb(67, 66, 66) fixed;
   color: white;
+  box-shadow: inset .5em .5em 1em 0px rgba(0, 0, 0, 0.233);
+  background-size: cover;
+}
+
+#img1{
+  background: url('/desafio2/imgs/bg1.jpg') right center no-repeat fixed;
+  background-size: cover;
+}
+
+#img2{
+  background-image: url('/desafio2/imgs/bg2.jpg');
 }
 
 .img p {
   display: inline-block;
-  background-color: rgba(0, 0, 0, 0.276);
+  background-color: rgba(0, 0, 0, 0.486);
+  text-shadow: 1px 1px black;
 }
 
 footer {
